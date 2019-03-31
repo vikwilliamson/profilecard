@@ -1,0 +1,72 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: #64efda;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+  font-family: Iceberg, sans-serif;
+  margin-top: -5px;
+}
+
+p {
+  font-family: Encode Sans Expanded;
+  font-size: 18px;
+}
+
+#description {
+  margin-bottom: 50px;
+}
+
+hr {
+  color: #fff;
+}
+
+#container {
+  text-align: center;
+  background-image:#64efda;
+
+}
+
+#card {
+  display: inline-block;
+  width:500px;
+  height: 550px;
+  background: #edf7f5;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+  border: solid;
+  border-color: #7fa39d;
+  border-radius: 20%;
+  box-shadow: 5px 10px #1e2322;
+}
+
+#profile {
+  width: 150px;
+  border: solid;
+  border-radius: 100%;
+}
+
+#skillDiv {
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+#skills {
+  margin-top: -15px;
+}
+
+#skills p {
+  margin: 5px;
+}
+
+.fa-github, .fa-instagram {
+  margin: 8px;
+  color: #7fa39d;
+}
+
+ i:hover {
+  color: #64efda;
+}
